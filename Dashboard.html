@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KeepTrack</title>
+	<link rel="stylesheet" href="Dstyle.css">
+</head>
+<body>
+	<header>
+		KeepTrack
+	</header>
+	<div class="cardbox">
+		<div class="card" onclick="clickHandler('New_Admit.html')">
+			<h2>New Admission</h2>
+		</div>
+		<div class="card" onclick="clickHandler('Total_Admit.html')">
+			<h2>Total Admissions</h2>
+		</div>
+		<div class="card" onclick="clickHandler('Expiry.html')">
+			<h2>Check Expiry</h2>
+		</div>
+		<div class="card" onclick="clickHandler('Remove_Mem.html')">
+			<h2>Remove Member</h2>
+		</div>
+		<div class="card" onclick="clickHandler('Update_Mem.html')">
+			<h2>Update Membership</h2>
+		</div>
+	</div>
+	<footer>
+		Footer
+	</footer>
+	<script>
+		function clickHandler(venue) {
+			window.open(venue);
+		}
+	</script>
+</body>
+</html>

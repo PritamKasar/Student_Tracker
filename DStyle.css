@@ -1,0 +1,50 @@
+body {
+	background-image: url("Background.jpg");	
+	background-size: cover;
+	font-family: Arial, sans-serif;
+}
+
+header{
+	font-size: large;
+	margin-top: 15px;
+}
+.cardbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 150px;
+}
+h2{
+	color: #fff;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #7767fe;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	transition: background-color 0.3s ease;
+}
+.card:hover {
+	background-color: #5257ff;
+  }
+
+.card h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+}
