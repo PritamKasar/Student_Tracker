@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Admission</title>
-</head>
-<body style="margin: 20% 20%;">
-    Admission Form
-</body>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="NAStyle.css" />
+    <title>Membership Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Membership Form</h1>
+      <form id="membershipForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter Name" required />
+        <br><br>
+        <label for="mobile">Mobile Number</label>
+        <input type="tel" id="mobile" name="mobile" placeholder="Enter Mobile Number" required />
+        <br><br>
+
+        <label for="amountPaid">Amount Paid</label>
+        <input type="number" id="amountPaid" name="amountPaid" placeholder="Enter Amount" required />
+        <br><br>
+
+        <label for="amountRemaining">Amount Remaining</label>
+        <input type="number" id="amountRemaining" name="amountRemaining" placeholder="Enter Amountx" required />
+        <br><br>
+
+        <label for="membershipTime">Membership Time</label>
+        <input type="time" id="membershipTime" name="membershipTime" required />
+        <br><br>
+
+        <label for="membershipDate">Membership Date</label>
+        <input type="date" id="membershipDate" name="membershipDate" required />
+        <button type="submit" value="Submit">submit</button>
+      </form>
+    </div>
+  </body>
 </html>
