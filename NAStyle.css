@@ -32,6 +32,45 @@ label {
     color: #555;
 }
 
+.duration{  
+    display: inline-flex;
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+  }
+  .duration .option{
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0 30px;
+    border: 1px solid #6065DA;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="radio"]{
+    display: none;
+  }
+  #option-1:checked:checked ~ .option-1,
+  #option-2:checked:checked ~ .option-2,
+  #option-3:checked:checked ~ .option-3,
+  #option-4:checked:checked ~ .option-4{
+    border-color: #6065DA;
+    background: #5257ff;
+  }
+  
+  #option-1:checked:checked ~ .option-1 span,
+  #option-2:checked:checked ~ .option-2 span,
+  #option-3:checked:checked ~ .option-3 span,
+  #option-4:checked:checked ~ .option-4 span{
+    color: #fff;
+  }
+
 input[type="text"],
 input[type="tel"],
 input[type="number"],
