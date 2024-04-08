@@ -38,17 +38,17 @@ label {
     width: 400px;
     border-radius: 5px;
   }
-  .duration .option{
+  .duration .option{    
     background: #fff;
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 30px;
+    margin: 0 12px;
     border-radius: 8px;
     cursor: pointer;
-    padding: 0 30px;
+    padding: 0 15px;
     border: 1px solid #6065DA;
     transition: all 0.3s ease;
   }
